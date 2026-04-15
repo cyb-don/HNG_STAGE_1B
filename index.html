@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card — Alex Rivera</title>
+    <link rel="stylesheet" href="profilecard.css">
+</head>
+
+<body>
+
+    <article id="profile-card" data-testid="test-profile-card" role="region" aria-label="User profile card">
+
+        <div id="card-hero">
+
+            <figure id="avatar-figure">
+                <div id="avatar-ring">
+                    <img id="user-avatar" data-testid="test-user-avatar"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqaenjII3yiZrLgr_70OQYDFR2RCFZI0Ntg&s"
+                        alt="Illustrated avatar of Alex Rivera with a warm golden background" width="94" height="94" />
+                </div>
+            </figure>
+
+            <div id="card-info">
+                <div id="name-row">
+                    <h2 id="user-name" data-testid="test-user-name">Olumide Olu</h2>
+                </div>
+                <p id="user-bio" data-testid="test-user-bio">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et enim fugiat, labore atque velit quas
+                    itaque earum id asperiores dolores? Deleniti, consequuntur. Eos, enim eum?
+                </p>
+
+                <div id="time-row">
+                    <span id="epoch-label">Current Time</span>
+                    <time id="user-time" data-testid="test-user-time" aria-live="polite" aria-atomic="true"
+                        aria-labelledby="epoch-label" datetime="">—</time>
+                </div>
+            </div>
+
+        </div>
+
+        <nav id="user-social-links" data-testid="test-user-social-links" aria-label="Social media profiles">
+            <p id="social-section-label">Connect on Socials</p>
+            <ul id="social-list">
+                <li>
+                    <a id="social-link-twitter" data-testid="test-user-social-twitter"
+                        href="https://twitter.com/alexrivera" target="_blank" rel="noopener noreferrer"
+                        aria-label="Alex Rivera on Twitter, opens in new tab">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+                        </svg>
+                        Twitter
+                    </a>
+                </li>
+
+                <li>
+                    <a id="social-link-github" data-testid="test-user-social-github"
+                        href="https://github.com/alexrivera" target="_blank" rel="noopener noreferrer"
+                        aria-label="Alex Rivera on GitHub, opens in new tab">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                        </svg>
+                        GitHub
+                    </a>
+                </li>
+
+                <li>
+                    <a id="social-link-linkedin" data-testid="test-user-social-linkedin"
+                        href="https://linkedin.com/in/alexrivera" target="_blank" rel="noopener noreferrer"
+                        aria-label="Alex Rivera on LinkedIn, opens in new tab">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                        LinkedIn
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div id="lists-section">
+            <div id="lists-grid">
+
+                <section id="hobbies-section" aria-labelledby="hobbies-heading">
+                    <h3 id="hobbies-heading">Hobbies</h3>
+                    <ul id="user-hobbies" data-testid="test-user-hobbies" aria-label="List of hobbies">
+                        <li>Playing</li>
+                        <li>Music</li>
+                        <li>Food</li>
+                        <li>Sports</li>
+                        <li>Sci-fi</li>
+                    </ul>
+                </section>
+
+                <section id="dislikes-section" aria-labelledby="dislikes-heading">
+                    <h3 id="dislikes-heading">Dislikes</h3>
+                    <ul id="user-dislikes" data-testid="test-user-dislikes" aria-label="List of dislikes">
+                        <li>Stress</li>
+                        <li>Stress</li>
+                        <li>Stress</li>
+                        <li>Stress</li>
+                        <li>Stress</li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
+
+    </article>
+
+    <script>
+        (function () {
+            var timeEl = document.getElementById('user-time');
+
+            function tick() {
+                var now = Date.now();
+                timeEl.textContent = now.toString();
+                timeEl.setAttribute('datetime', new Date(now).toISOString());
+            }
+
+            tick();
+            setInterval(tick, 1000);
+        })();
+    </script>
+
+</body>
+
+</html>
