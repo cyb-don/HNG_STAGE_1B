@@ -221,8 +221,7 @@
 
         #social-link-twitter,
         #social-link-github,
-        #social-link-linkedin,
-        #social-link-dribbble {
+        #social-link-linkedin {
             display: inline-flex;
             align-items: center;
             gap: 7px;
@@ -238,8 +237,7 @@
 
         #social-link-twitter svg,
         #social-link-github svg,
-        #social-link-linkedin svg,
-        #social-link-dribbble svg {
+        #social-link-linkedin svg {
             flex-shrink: 0;
         }
 
@@ -248,9 +246,7 @@
         #social-link-github:hover,
         #social-link-github:focus-visible,
         #social-link-linkedin:hover,
-        #social-link-linkedin:focus-visible,
-        #social-link-dribbble:hover,
-        #social-link-dribbble:focus-visible {
+        #social-link-linkedin:focus-visible {
             color: #f0ece4;
             border-color: #c8a96e;
             background: rgba(200, 169, 110, .06);
@@ -259,8 +255,7 @@
 
         #social-link-twitter:focus-visible,
         #social-link-github:focus-visible,
-        #social-link-linkedin:focus-visible,
-        #social-link-dribbble:focus-visible {
+        #social-link-linkedin:focus-visible {
             box-shadow: 0 0 0 3px rgba(200, 169, 110, .3);
         }
 
