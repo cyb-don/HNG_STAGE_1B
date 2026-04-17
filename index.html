@@ -118,10 +118,10 @@
 
     <script>
         (function () {
-            var timeEl = document.getElementById('user-time');
+            let timeEl = document.getElementById('user-time');
 
             function tick() {
-                var now = Date.now();
+                let now = Date.now();
                 timeEl.textContent = now.toString();
                 timeEl.setAttribute('datetime', new Date(now).toISOString());
             }
